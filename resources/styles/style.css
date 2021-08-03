@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    background-color: rgba(240, 255, 255, 0.8);
+}
+
+.header-grid {
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    background-position: 15% 20%;
+    height: 70vh;
+    width: 100%;
+    display: grid;
+    grid-template: repeat(10, 1fr) / repeat(16, 1fr);
+    z-index: 10;
+    align-items: center;
+}
+
+.header-grid img {
+    width: 100%;
+    filter: invert(1);
+}
+
+.header-grid img,
+.header-grid a {
+    z-index: 15;
+}
+
+.header-grid-a {
+    grid-area: 2 / 2 / 5 / 5;
+}
+
+.header-grid-b {
+    grid-area: 3 / 10 / 4 / 13;
+}
+
+.header-grid-c {
+    grid-area: 5 / 12 / 5 / 15;
+}
+
+.header-grid-d {
+    grid-area: 7 / 15 / 8 / 17;
+}
+
+.header-grid a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: azure;
+    font-weight: 300;
+    transition: 1.5s;
+}
+
+.header-grid a:hover {
+    transition: 1.5s;
+    border-left: 2px solid rgb(94, 75, 218);
+    padding-left: 15px;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    height: 70vh;
+    width: 100%;
+    z-index: 1;
+}
+
+#mission {
+    display: grid;
+    width: 90%;
+    height: 50vh;
+    grid-template: repeat(6, 2fr) / repeat(3, 4fr);
+}
+
+#mission img {
+    width: 100%;
+}
+
+.mission-a {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.mission-b {
+    grid-area: 1 / 4 / 2 / 6;
+}
+.mission-c {
+    grid-area: ;
+}
