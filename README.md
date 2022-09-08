@@ -1,5 +1,5 @@
 # **Salomon Outfits Website**
-## [Here you can see this project](https://necogamy.github.io/salomon-grid-flexbox-website/)
+## [Here you can see this project](https://nycolop.github.io/salomon-grid-flexbox-website/)
 
 <br>
 
